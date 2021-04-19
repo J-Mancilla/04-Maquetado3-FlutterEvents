@@ -1,0 +1,22 @@
+
+
+
+.fillButton{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background-color: #2189FD;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    float: left;
+}
+
+.fillButton.large{
+    padding: 14px 80px;
+}
+
+.fillButton.small{
+    padding: 14px 40px;
+}

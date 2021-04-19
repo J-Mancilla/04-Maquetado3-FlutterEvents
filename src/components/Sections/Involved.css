@@ -1,0 +1,55 @@
+
+
+.getInvolvedSection{
+    margin-top: 250px;
+    width: 100%;
+    float: left;
+    display: grid;
+    place-items: center;
+}
+
+.getInvolvedSection .container{
+    width: 80%;
+    max-width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.getInvolvedSection .container::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0,0,0,0.1);
+    top: -100px;
+    left: 0;
+}
+
+.getInvolvedSection .container > img{
+    width: 60%;
+}
+
+.getInvolvedSection .container h2,
+.getInvolvedSection .container h5,
+.getInvolvedSection .container p{
+    color: #4a4a4a;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.getInvolvedSection .container p{
+    line-height: 1.7;
+}
+
+.getInvolvedSection .container h5{
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.getInvolvedSection .container h2{
+    font-size: 40px;
+}

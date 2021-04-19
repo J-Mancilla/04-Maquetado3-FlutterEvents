@@ -1,0 +1,53 @@
+
+
+
+.informationSection{
+    width: 100%;
+    padding: auto;
+    float: left;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.informationSection .container{
+    width: 80%;
+    max-width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informationSection .container > div{
+    width: 36%;
+    float: left;
+}
+
+.informationSection .container > div > h3{
+    color: #4a4a4a;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.informationSection .container > div > p{
+    color: #4a4a4a;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.informationSection .container.left > img{
+    width: 66%;
+}
+
+.informationSection .container.right > img{
+    width: 45%;
+}
+
+.informationSection .container.right{
+    flex-direction: row-reverse;
+}

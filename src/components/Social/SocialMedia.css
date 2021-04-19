@@ -1,0 +1,17 @@
+
+
+
+.socialMediaIcons{
+    display: flex;
+    height: 65px;
+    margin: 0 20px;
+}
+
+.socialMediaIcons svg{
+    width: 23px;
+    margin: 0 6px;
+}
+
+.socialMediaIcons svg > path{
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+
+
+.infoCard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.infoCard  img{
+    width: 90%;
+}
+
+.infoCard h4{
+    width: 300px;
+    color: #4a4a4a;
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+}

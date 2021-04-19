@@ -1,0 +1,19 @@
+
+
+.linkButton{
+    font-size: 17px;
+    font-weight: 600;
+    color: #2189FD;
+    text-decoration: none;
+}
+
+.linkButton.btnDecorated:hover{
+    text-decoration: underline;
+}
+
+.linkButton.small{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+
+
+.heroSection{
+    width: 100%;
+    float: left;
+    background-color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 90px 0;
+}
+
+.heroSection > h1{
+    font-size: 64px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #4A4A4A;
+    margin: 0;
+}
+
+.heroSection > p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    color: #4A4A4A;
+    font-weight: 400;
+    width: 29%;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.heroSection .linkButton{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
